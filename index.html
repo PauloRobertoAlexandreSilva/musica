@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+<head>
+    <title>MÚSICA</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Content-Language" content="pt-BR">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Paulo Roberto Alexandre da Silva">
+    <meta name="description" content="app para ouvir músicas selecionadas">
+    <meta name="keywords" content="HTML, CSS, JavaScript, música">
+    <meta name="theme-color" content="#212529">
+
+    <meta name="application-name" content="MÚSICA">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="full-screen" content="yes">
+    <meta name="browsermode" content="application">
+    <meta name="screen-orientation" content="portrait">
+
+    <meta name="msapplication-TileImage" content="img/icon-144.png">
+    <meta name="msapplication-TileColor" content="#212529">
+    <meta name="msapplication-navbutton-color" content="#212529">
+    <meta name="msapplication-tooltip" content="MÚSICA">
+    <meta name="msapplication-starturl" content=".">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <meta name="format-detection"       content="telephone=yes">
+
+    <meta name="apple-mobile-web-app-capable"          content="yes"> <!-- Esconder interface do Safari -->
+    <meta name="apple-mobile-web-app-title"            content="MÚSICA">
+    <meta name="apple-mobile-web-app-status-bar"       content="#212529">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-transparent">
+
+    <link rel="apple-touch-icon-precomposd"  href="img/ico_192.png">
+    <link rel="apple-touch-icon" href="img/icon_96.png">
+    <link rel="apple-touch-icon" href="img/icon_57.png"  sizes="57x57">
+    <link rel="apple-touch-icon" href="img/icon_60.png"  sizes="60x60">   <!-- Especifica o ícone do Web App no iphone -->
+    <link rel="apple-touch-icon" href="img/icon_72.png"  sizes="72x72">
+    <link rel="apple-touch-icon" href="img/icon_76.png"  sizes="76x76">   <!-- Especifica o ícone do Web App no ipad -->
+    <link rel="apple-touch-icon" href="img/icon_114.png" sizes="114x114">
+    <link rel="apple-touch-icon" href="img/icon_120.png" sizes="120x120"> <!-- Especifica o ícone do Web App no iphone-retina -->
+    <link rel="apple-touch-icon" href="img/icon_128.png" sizes="128x128">
+    <link rel="apple-touch-icon" href="img/icon_144.png" sizes="144x144">
+    <link rel="apple-touch-icon" href="img/icon_152.png" sizes="152x152"> <!-- Especifica o ícone do Web App no ipad-retina -->
+    <link rel="apple-touch-icon" href="img/icon_180.png" sizes="180x180">
+    <link rel="apple-touch-icon" href="img/icon_192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="img/icon_384.png" sizes="384x384">
+    <link rel="apple-touch-icon" href="img/icon_512.png" sizes="512x512">    
+
+    <link rel="apple-touch-startup-image" href="https://placehold.co/320x480/212529/ffffff/png?text=MÚSICA">
+    <link rel="apple-touch-startup-image" href="https://placehold.co/320x460/212529/ffffff/png?text=MÚSICA"   media="(device-width: 320px)">
+    <link rel="apple-touch-startup-image" href="https://placehold.co/640x920/212529/ffffff/png?text=MÚSICA"   media="(device-width: 320px)  and (-webkit-device-pixel-ratio: 2)">
+    <link rel="apple-touch-startup-image" href="https://placehold.co/768x1004/212529/ffffff/png?text=MÚSICA"  media="(device-width: 768px)  and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="https://placehold.co/748x1024/212529/ffffff/png?text=MÚSICA"  media="(device-width: 748px)  and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="https://placehold.co/1536x2008/212529/ffffff/png?text=MÚSICA" media="(device-width: 1536px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)">
+    <link rel="apple-touch-startup-image" href="https://placehold.co/1496x2048/212529/ffffff/png?text=MÚSICA" media="(device-width: 1496px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)">
+    <link rel="apple-touch-startup-image" href="https://placehold.co/1242x2688/212529/ffffff/png?text=MÚSICA" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)"> 
+    <link rel="apple-touch-startup-image" href="https://placehold.co/828x1792/212529/ffffff/png?text=MÚSICA"  media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)"> 
+    <link rel="apple-touch-startup-image" href="https://placehold.co/1125x2436/212529/ffffff/png?text=MÚSICA" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)"> 
+    <link rel="apple-touch-startup-image" href="https://placehold.co/1242x2208/212529/ffffff/png?text=MÚSICA" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3)"> 
+    <link rel="apple-touch-startup-image" href="https://placehold.co/750x1334/212529/ffffff/png?text=MÚSICA"  media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)">  
+    <link rel="apple-touch-startup-image" href="https://placehold.co/2048x2732/212529/ffffff/png?text=MÚSICA" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)"> 
+    <link rel="apple-touch-startup-image" href="https://placehold.co/1668x2388/212529/ffffff/png?text=MÚSICA" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)"> 
+    <link rel="apple-touch-startup-image" href="https://placehold.co/1668x2224/212529/ffffff/png?text=MÚSICA" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)"> 
+    <link rel="apple-touch-startup-image" href="https://placehold.co/1536x2048/212529/ffffff/png?text=MÚSICA" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)">
+        
+    <link rel="icon" href="img/icon_192.png" sizes="192x192">    
+    <link rel="Shortcut Icon" type="img/ico" href="favicon.ico">
+    <link rel="icon" type="image/x-ico" href="favicon.ico">
+    <link rel="icon" type="image/png" href="img/icon_16.png">
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+
+    <!-- Aplicativo -->
+    <link rel="manifest" href="manifest.json">
+    <script src="app.js"></script>    
+    <script src="js/install.js"></script>
+</head>
+<body>
+    <noscript>
+        Para completa funcionalidade é necessário habilitar o JavaScript.
+        Aqui estão as <a href="http://www.enable-javascript.com/pt/" target="_blank">
+        instruções de como habilitar o JavaScript no seu navegador</a>.
+    </noscript>
+
+    <div class="splash-logo"></div>
+
+    <div class="container-fluid pt-2 pb-5 bg-dark text-white text-center">
+        <div class="d-flex justify-content-end">
+            <button class="btn btn-dark" type="button" id="buttonInstallApp"><i class="bi bi-file-arrow-down"></i></button>
+            <button class="btn btn-dark" type="button" id="buttonShare"><i class="bi bi-share"></i></button>
+            <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"><i class="bi bi-list"></i></button>
+        </div>
+        <h1>MÚSICA</h1>
+        <p>Minha seleção de músicas do Youtube</p> 
+    </div>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasMenuLabel">Músicas Selecionadas do Youtube</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" id="btnCloseOffCanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                Seleção de ótimas músicas para você curtir em qualquer momento
+            </div>
+            <div class="dropdown mt-3">
+                <select id="selectMusica" class="form-select form-select-lg mb-3" aria-label="Large select example">
+                    <option selected value="npk--cNtoSA">Beats for Cozy All-Day</option>
+                    <option value="pLXsxjsJs5o">Perfect Grooves for Relaxing</option>
+                    <option value="LhHJTVk6HiQ">Mix Perfect Background for Work</option>
+                    <option value="NxHI80xzwJ4">Perfect Cafe Ambient Grooves</option>
+                    <option value="SuGJq01lrTw">Cafe Jazz Music</option>
+                    <option value="92-IuLOa4Xc">Serene Music Vibes</option>
+                    <option value="yGuHAWfXSrA">Soft Instrumentals for Calm Nights</option>
+                    <option value="A6Dp_xxdUfw">Heaven Smooth Instrumentals</option>
+                    <option value="yiMYcBoA-8k">Golden Hour Beats</option>
+                    <option value="BYz3Gp4Xug8">Timeless Instrumentals</option>
+                    <option value="u7NytVqvEsg">Chill Instrumental</option>
+                    <option value="ioAzYhKYbLo">POP</option>
+                </select>        
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 text-center">
+        <div class="row">
+            <div class="col">
+                <div id="resultado"></div>
+
+                <div class="card" aria-hidden="true" style="margin: auto; width: 100%; min-width: 340px; max-width: 80%;">
+                    <iframe id="iframeMusica" width="100%" height="191" src="https://www.youtube.com/embed/npk--cNtoSA?controls=0"></iframe>
+                    <div class="card-body">
+                        <h5 class="card-title placeholder-glow">
+                            <span class="col-9" id="spanTitulo">Beats for Cozy All-Day</span>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

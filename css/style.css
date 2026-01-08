@@ -1,0 +1,21 @@
+html, body {
+    overscroll-behavior-inline: none;
+    overscroll-behavior: none;
+}
+
+.splash-logo {
+    z-index: 10;
+    position: absolute;
+    width: 192px; height: 192px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('../img/icon_192.png');
+    animation-name: blinker;
+    animation-duration: 2s;
+    display: none;
+}
+@keyframes blinker {
+    0%   {opacity: 100%; display: block;}
+    100% {opacity: 0%;  display: none;}
+}
