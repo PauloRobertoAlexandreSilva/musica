@@ -18,9 +18,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
                 const shareData = {
                     files: filesArray,
-                    title: "CEP",
-                    text: "Consulta de Endereço por CEP\n\n\n",
-                    url: "https://paulorobertoalexandresilva.github.io/cep/",
+                    title: "MÚSICA",
+                    text: "App para ouvir músicas selecionadas\n\n\n",
+                    url: "https://paulorobertoalexandresilva.github.io/musica/",
                 };
 
                 if (!(navigator.canShare(shareData))) {
