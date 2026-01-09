@@ -4,11 +4,9 @@
     "app_name": "MÚSICA",
     "theme_color": "#212529",
     "background_color": "#212529",
-    "display": "standalone",
+    "display": "fullscreen",
     "orientation": "portrait",
-    "id":"/",
-    "Scope": "/",
-    "start_url": "/",
+    "start_url": "index.html",    
     "categories": ["productivity", "utilities", "social"],
     "description": "app para ouvir músicas selecionadas.",
     "icons": [
@@ -62,5 +60,28 @@
             "sizes": "512x512",
             "type": "image/png"
         }
+    ],
+    "screenshots": [
+        {
+            "src": "img/screenshot.webp",
+            "sizes": "1280x720",
+            "type": "image/webp",
+            "form_factor": "wide",
+            "label": "app para ouvir músicas selecionadas"
+        },
+        {
+            "src": "img/screenshot.webp",
+            "sizes": "1280x720",
+            "type": "image/webp",
+            "platform": "ios",
+            "label": "app para ouvir músicas selecionadas"
+        },
+        {
+            "src": "img/screenshot2.webp",
+            "sizes": "750x1334",
+            "form_factor": "narrow",
+            "label": "app para ouvir músicas selecionadas"
+        }
     ]
+
 }
